@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://Assets/Background.jpg" type="Texture" id=1]
 [ext_resource path="res://Assets/Player.png" type="Texture" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Assets/font.ttf" type="DynamicFontData" id=6]
 [ext_resource path="res://Scripts/Main.gd" type="Script" id=7]
 [ext_resource path="res://Runner.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Shooter.tscn" type="PackedScene" id=9]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 144.379
@@ -122,3 +123,5 @@ text = "0"
 
 [node name="Runner" parent="." instance=ExtResource( 8 )]
 position = Vector2( 264.597, 234.306 )
+
+[node name="Shooter" parent="." instance=ExtResource( 9 )]
